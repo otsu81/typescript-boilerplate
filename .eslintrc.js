@@ -104,5 +104,11 @@ module.exports = {
         printWidth: 160, // override default 80 char width line break
       },
     ],
+    'no-plusplus': [
+      'error',
+      {
+        'allowForLoopAfterthoughts': true // allow i++ in for loops
+      }
+    ],
   },
 };
